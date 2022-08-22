@@ -1,13 +1,25 @@
-import { useState } from 'react'
-import logo from './logo.svg'
+
+
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <div className="App">
-   <h1>React Project</h1>
+      <header   className='App-header'>
+        <div className='header-left__menu'>
+  <img src="http://edconsulting-rks.com/wp-content/uploads/2022/04/cropped-EDLogo.png" alt="logo" width={200}/>
+  </div>
+  <div className='header-right__menu'>
+  <section className='Home'>Home</section>
+  <section className='About us'>About us</section>
+  <section className='Services'>Services</section>
+  <section className='News'>News</section>
+  <section className='Contact'>Contact</section>
+ 
+  </div>
+  </header>
     </div>
   )
 }
