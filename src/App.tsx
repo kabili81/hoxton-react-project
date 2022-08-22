@@ -1,6 +1,11 @@
-
-
 import './App.css'
+import { AboutUs } from '../components/AboutUs'
+import { Contact } from '../components/Contact'
+import { Home } from '../components/Home'
+import { News } from '../components/News'
+import { Services} from '../components/Services'
+
+
 
 function App() {
 
@@ -12,13 +17,12 @@ function App() {
   <img src="http://edconsulting-rks.com/wp-content/uploads/2022/04/cropped-EDLogo.png" alt="logo" width={200}/>
   </div>
   <div className='header-right__menu'>
-  <section className='Home'>Home</section>
-  <section className='About us'>About us</section>
-  <section className='Services'>Services</section>
-  <section className='News'>News</section>
-  <section className='Contact'>Contact</section>
- 
-  </div>
+  <Home />
+ <AboutUs />
+  <Services />
+  <News />
+  <Contact />
+ </div>
   </header>
     </div>
   )
