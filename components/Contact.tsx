@@ -1,5 +1,6 @@
 export function Contact() {
+
     return(
-        <section className='Contact'>Contact</section>
+        <section className='contact'>Contact</section>
     )
   }

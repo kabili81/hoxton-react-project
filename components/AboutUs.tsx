@@ -1,5 +1,5 @@
 export function AboutUs() {
     return(
-        <section className='About us'>About us</section> 
+        <section className='About-us'>About us</section> 
     )
   }
