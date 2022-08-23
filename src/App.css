@@ -1,5 +1,8 @@
 .App {
+  display: grid;
   text-align: center;
+  position: relative;
+  height: 200vh;
 }
 
 .App-logo {
@@ -18,8 +21,9 @@
   background-image: url('https://images.pexels.com/photos/7654585/pexels-photo-7654585.jpeg?auto=compress&cs=tinysrgb&w=600');
   background-repeat: no-repeat;
   background-position: center;
+  position: absolute;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: row;
   align-items: top;
@@ -58,3 +62,24 @@ button {
   font-size: calc(10px + 2vmin);
 }
 
+.links {
+  text-decoration: none;
+  color: white;
+}
+.main {
+  background-color: #e2e8ea;
+  display: grid;
+  flex-direction: row;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: rgb(145, 96, 96);
+  padding: 1rem;
+  gap: 40rem;
+ min-height: 400vh;
+}
+
+.image-main {
+  align-items: left;
+  justify-content: left;
+}
