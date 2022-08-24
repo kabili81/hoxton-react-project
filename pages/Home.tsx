@@ -1,6 +1,13 @@
+import { Footer } from "../components/Footer";
+import { Header } from "../components/Header";
+import { Main } from "../components/Main";
+
 export function Home() {
-    
-    return(
-        <section className='Home'>Home</section> 
-    )
-  }
+  return (
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
+  );
+}

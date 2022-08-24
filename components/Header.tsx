@@ -35,6 +35,8 @@ export function Header() {
       </div>
 
       <div className="header-right__menu">
+        <nav>
+          <ul>
         <Link className="links" to={"home"}>
           Home
         </Link>
@@ -44,12 +46,14 @@ export function Header() {
         <Link className="links" to={"services"}>
           Services
         </Link>
-        <Link className="links" to={"ews"}>
+        <Link className="links" to={"news"}>
           News
         </Link>
-        <Link className="links" to={"Contact"}>
+        <Link className="links" to={"contact"}>
           Contact
         </Link>
+        </ul>
+        </nav>
       </div>
     </header>
   );
