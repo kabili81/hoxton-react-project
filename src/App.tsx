@@ -1,9 +1,9 @@
 import "./App.css";
 
 import { Header } from "../components/Header";
-import { Main } from "../components/Main";
+
 import { Footer } from "../components/Footer";
-import { useState } from "react";
+
 import { Home } from "../pages/Home";
 import { AboutUs } from "../pages/AboutUs";
 import { Services } from "../pages/Services";
@@ -18,14 +18,14 @@ function App() {
       <>
       <Header />
       <Routes>
-        <Route index element={< Navigate to='/Header' />} />
+        <Route index element={< Navigate to='/home' />} />
         <Route path="home" element={<Home />} />
         <Route path="aboutus" element={<AboutUs />} />
         <Route path="services" element={<Services />} />
         <Route path="news" element={<News />} />
         <Route path="contact" element={<Contact />} />
         </Routes> 
-      <Main />
+      
       <Footer />
       </>
     </div>

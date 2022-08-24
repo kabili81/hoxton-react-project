@@ -36,12 +36,13 @@ export function Main() {
     <main className="main">
       <section className="services">
         <ul className="services-list">
-          <p>Service</p>
+          
           <h1>What We Do</h1>
           {services.map((Service) => (
             <>
-              <img src={Service.Image} />
+              
               <h1>{Service.Title}</h1> <p>{Service.Discription}</p>
+              <img src={Service.Image} />
             </>
           ))}
         </ul>

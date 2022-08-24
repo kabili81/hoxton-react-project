@@ -1,5 +1,5 @@
 export function Services() {
     return(
-        <section className='services'>Services</section>
+        <section className='services'></section>
     )
   }
