@@ -1,0 +1,28 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Kosovo, Albania to cooperate in development of Vlora LNG terminal",
+      "image": "https://cdn.aiidatapro.net/media/26/d0/ec/t780x490/26d0eca19be2dfd4cb3025caaa4400b0.jpg",
+      "description": " The governments of Kosovo and Albania signed a Memorandum of Cooperation for the development of the Lungomare LNG terminal in Albania's Vlora, Kosovo prime minister's office said."
+    },
+    {
+      "id": 2,
+      "title": "Luxembourg to invest 35 mln euro in Kosovo's development in 2023-2025",
+      "image": "https://cdn.aiidatapro.net/media/9d/e0/36/t780x490/9de036a9b9a169a46a1b7a7d83fc394e03b8b319.jpg",
+      "description": "The government of Luxembourg plans to provide 35 million euro ($35.7 million) in financing to Kosovo in the 2023-2025 period in order to back the country's development, Kosovo's prime minister office said."
+    },
+    {
+      "id": 3,
+      "title": "Kosovo's GDP growth slows to 4.87% y/y in Q1 - prelim estimate",
+      "image": "https://cdn.aiidatapro.net/media/b6/57/3e/t780x490/b6573ea33cb49776409b390e943a5f2e3f54a564.jpg",
+      "description": "Kosovo's gross domestic product (GDP) rose by a real 4.87% year-on-year in the first quarter of 2022, after increasing by 6.36% in the previous three-month period, the statistical office said."
+    },
+    {
+      "id": 4,
+      "title": "EBRD, EU investing 6 mln euro in energy efficiency project in Kosovo's Prizren",
+      "image": "https://cdn.aiidatapro.net/media/ec/2b/f0/t780x490/ec2bf06eaef6f48d6af78f886ffdc5cf.jpg",
+      "description": "The Federal Reserve chairman gathers with policy makers this week at Jackson Hole where they face the prospect that rising prices could be a feature of the landscape, a rapid about-face from a time when they worried about inflation being too low."
+    }
+  ]
+}

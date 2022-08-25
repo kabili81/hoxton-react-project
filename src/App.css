@@ -90,6 +90,27 @@
 grid-area: main;
 }
 
+.article-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  gap: 1rem;
+  justify-content: center;
+}
+
+.article {
+  box-shadow: 2px 2px 3px 0 #00000020;
+  
+}
+.article__image {
+  width: 100%;
+}
+.article__info {
+  display: grid;
+  gap: 1rem;
+  padding: 0.5rem;
+
+}
 .appointment{
   background-color: #01224c;
   color: white;

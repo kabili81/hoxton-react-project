@@ -1,10 +1,10 @@
-type Service = {
+type Home = {
   Image: string;
   Title: string;
   Discription: string;
 };
 
-const services: Service[] = [
+const services: Home[] = [
   {
     Image:
       "http://edconsulting-rks.com/wp-content/uploads/2019/06/feature2-free-img.png",
