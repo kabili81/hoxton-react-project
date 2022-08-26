@@ -29,21 +29,17 @@ export function Header() {
         </p>
         <div>
           <Link to={"Contact"}>
-        <button className="button">Contact</button>
-        </Link>
+            <button className="button">Contact</button>
+          </Link>
         </div>
       </div>
 
       <div className="header-right__menu">
-        
         <Link className="links" to={"home"}>
           Home
         </Link>
         <Link className="links" to={"aboutus"}>
           About Us
-        </Link>
-        <Link className="links" to={"services"}>
-          Services
         </Link>
         <Link className="links" to={"news"}>
           News
@@ -51,7 +47,6 @@ export function Header() {
         <Link className="links" to={"contact"}>
           Contact
         </Link>
-       
       </div>
     </header>
   );

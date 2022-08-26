@@ -19,7 +19,7 @@ export function Contact() {
         <h2>Request A Quote</h2>
       </div>
       <div className="form">
-        <form onSubmit={(() => )}>
+        <form>
           <input type="text" placeholder="Name*" />
 
           <input type="text" placeholder="Email*"  />
