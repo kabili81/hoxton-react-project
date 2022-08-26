@@ -6,7 +6,6 @@ import { Footer } from "../components/Footer";
 
 import { Home } from "../pages/Home";
 import { AboutUs } from "../pages/AboutUs";
-import { Services } from "../pages/Services";
 import { News } from "../pages/News";
 import { Contact } from "../pages/Contact";
 import { Navigate, Route, Routes } from "react-router-dom";
