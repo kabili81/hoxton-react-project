@@ -37,6 +37,7 @@
   padding: 1rem;
   gap: 40rem;
   grid-area: App-header;
+  
 }
 .header-left__menu {
   align-items: top;
@@ -120,6 +121,27 @@ grid-area: main;
   align-items: left;
   justify-content: left;
 }
+.form {
+  display: grid;
+  place-content: center;
+  }
+.form form{
+  display: grid;
+  gap: 1.5rem; 
+  }
+  .form form input{
+    width: 300px;
+    height: 30px;
+  }
+  .form form button{
+    font-size: calc(10px + 2vmin);
+   background-color: rgba(231, 161, 33, 0.833);
+   color: white;
+   padding: 14px 30px;
+   border-radius: 30px;
+   border: none;
+   width: 120px;
+    }
 .footer{
   grid-area: footer;
 }

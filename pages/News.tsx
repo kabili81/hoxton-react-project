@@ -17,6 +17,7 @@ export function News() {
       setArticles(articlesFromServer)
     })
   }, [])
+
   return (
     <main className="main">
       <ul className="article-list">
@@ -24,6 +25,7 @@ export function News() {
          <>
          
           <article key={article.id}>
+          
           <img src={article.image} /> <h2>{article.title}</h2> <p>{article.description}</p>
           </article>
          
