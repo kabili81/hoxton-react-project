@@ -25,4 +25,17 @@
       "description": "The Federal Reserve chairman gathers with policy makers this week at Jackson Hole where they face the prospect that rising prices could be a feature of the landscape, a rapid about-face from a time when they worried about inflation being too low."
     }
   ]
+  
+}
+{
+  "quote": [
+{ "id":1,
+  "name": "Kabil",
+  "email": "kabil@email.com",
+  "phone number": 38344847761,
+  "Employee Number": 5,
+  "Number of incoming invoces": 57,
+  "Number of outgoing invoces": 81,
+}
+]
 }

@@ -1,4 +1,16 @@
+import { useState } from "react";
+
+  const initialForm = {
+    name: "",
+    email: "",
+    phone: 0,
+    employee: 0,
+    incomingInvoces: 0,
+    outgoingInvoces: 0,
+    
+  };
 export function Contact() {
+  const [quote, setQuote] = useState("")
   return (
     <main className="main">
       <h1>Contact</h1>
@@ -7,10 +19,10 @@ export function Contact() {
         <h2>Request A Quote</h2>
       </div>
       <div className="form">
-        <form>
+        <form onSubmit={(() => )}>
           <input type="text" placeholder="Name*" />
 
-          <input type="text" placeholder="Email*" />
+          <input type="text" placeholder="Email*"  />
 
           <input type="text" placeholder="Phone Numer*" />
 
