@@ -27,15 +27,4 @@
   ]
   
 }
-{
-  "quote": [
-{ "id":1,
-  "name": "Kabil",
-  "email": "kabil@email.com",
-  "phone number": 38344847761,
-  "Employee Number": 5,
-  "Number of incoming invoces": 57,
-  "Number of outgoing invoces": 81,
-}
-]
-}
+

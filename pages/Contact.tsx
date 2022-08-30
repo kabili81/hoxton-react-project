@@ -1,16 +1,22 @@
 import { useState } from "react";
-
-  const initialForm = {
-    name: "",
-    email: "",
-    phone: 0,
-    employee: 0,
-    incomingInvoces: 0,
-    outgoingInvoces: 0,
-    
-  };
+type Quote = {
+  name: string;
+  email: string;
+  phone: number;
+  employee: number;
+  incomingInvoces: number;
+  outgoingInvoces: number;
+};
+const quote = {
+  name: "Kabil",
+  email: "kabil@email.com",
+  phone: 38344847761,
+  employee: 5,
+  incomingInvoces: 250,
+  outgoingInvoces: 500,
+};
 export function Contact() {
-  const [quote, setQuote] = useState("")
+  const [quotes, setQuotes] = useState<Quote[]>([]);
   return (
     <main className="main">
       <h1>Contact</h1>
@@ -19,21 +25,66 @@ export function Contact() {
         <h2>Request A Quote</h2>
       </div>
       <div className="form">
-        <form>
-          <input type="text" placeholder="Name*" />
+        <form
+          className="quote-form"
+          onSubmit={(event) => {
+            event.preventDefault();
 
-          <input type="text" placeholder="Email*" />
+            const quote = {
+              name: event.target.name.value,
+              email: event.target.email.value,
+              phone: event.target.phone.value,
+              employee: event.target.employee.valueAsNumber,
+              incomingInvoces: event.target.incoming.valueAsNumber,
+              outgoingInvoces: event.target.outgoing.valueAsNumber,
+            };
 
-          <input type="text" placeholder="Phone Numer*" />
+            setQuotes([...quotes, quote]);
+          }}
+        >
+          <input type="text" name="name" placeholder="Name*" />
 
-          <input type="text" placeholder="Employee Number*" />
+          <input type="text" name="email" placeholder="Email*" />
 
-          <input type="text" placeholder="Number of incoming invoces*" />
+          <input type="text" name="phone" placeholder="Phone Numer*" />
 
-          <input type="text" placeholder="Number of outgoing invoces*" />
+          <input
+            type="number"
+            min={0}
+            name="employee"
+            placeholder="Employee Number*"
+          />
+
+          <input
+            type="number"
+            min={0}
+            name="incoming"
+            placeholder="Number of incoming invoces*"
+          />
+
+          <input
+            type="number"
+            min={0}
+            name="outgoing"
+            placeholder="Number of outgoing invoces*"
+          />
 
           <button className="button">Send</button>
         </form>
+        <ul>
+          {quotes.map((quote) => (
+            <li className="quote">
+              <h2>
+                {quote.name}, 
+                {quote.email}, 
+                {quote.phone}, 
+                {quote.employee},
+                {quote.incomingInvoces},
+                {quote.outgoingInvoces}
+              </h2>
+            </li>
+          ))}
+        </ul>
       </div>
     </main>
   );
